@@ -19,7 +19,7 @@ PUSHOVER_TOKEN=""     # Your Pushover app token
 # Notification preferences
 NOTIFY_ON_PERMISSION=true    # Notify when permission needed
 NOTIFY_ON_IDLE=false         # Notify when idle for 60+ seconds (can be noisy)
-NOTIFICATION_DELAY=180       # Seconds to wait before sending notification (3 minutes - avoid spam when active)
+NOTIFICATION_DELAY=120       # Seconds to wait before sending notification (2 minutes - avoid spam when active)
 
 # Security: What information to include in notifications
 INCLUDE_COMMAND_NAME=false   # Set to true to include command names (less secure)
